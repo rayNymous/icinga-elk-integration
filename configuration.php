@@ -1,15 +1,24 @@
 <?php
 
-$section = $this->menuSection('World', array(
+$section = $this->menuSection('Graphing', array(
     'icon' => 'globe'
 ));
 
-$section->add('World', array(
-    'url'       => 'helloworld',
+$section->add('Graphana', array(
+        'url'       => 'integration/grafana',
         'priority'  => 100
 ));
 	
-$section->add('Universe', array(
-    'url'       => 'helloworld/universe',
+/*
+$section->add('Pnp4Nagios', array(
+    'url'       => 'pnp4nagios',
     'priority'  => 101
 ));
+*/
+
+
+$section->add('Kibana', array(
+    'url'       => 'integration/kibana',
+    'priority'  => 102
+));
+

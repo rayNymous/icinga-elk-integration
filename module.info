@@ -1,4 +1,4 @@
-Module: helloworld
+Module: Integration
 Version: 0.0.1
-Description: Hello World module
- This is a simple Hello World demo module.
+Description: Graphana, Kibana and pnp integration module
+ This is a simple graph integration  module.
